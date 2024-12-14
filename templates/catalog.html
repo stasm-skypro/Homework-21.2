@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Прототип интернет-магазина</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <!-- Содержимое первого фрейма -->
+            <div class="col-2 frame1 d-flex align-items-stretch flex-column">
+                <div class="d-flex align-items-center">
+                    <img src="/static/resources/sm2.jpg" alt="logo" class="img-fluid"
+                        style="max-width: 32px; margin-right: 10px;">
+                    <h2 style="align-self: center; font-family: Arial, Helvetica, sans-serif;"> Меню </h2>
+                </div>
+                <!-- Верхний разделитель -->
+                <div class="divider-white"></div>
+                <br>
+                <!-- Кнопка Главная -->
+                <button class="btn btn-primary btn-icon-left"><i class="fas fa-home"></i> Главная </button>
+                <p></p>
+                <!-- Кнопка Категории -->
+                <button class="btn btn-dark btn-icon-left"><i class="fas fa-list"></i> Категории </button>
+                <p></p>
+                <!-- Кнопка Заказы -->
+                <button class="btn btn-dark btn-icon-left"><i class="fas fa-shopping-bag"></i> Заказы </button>
+                <p></p>
+                <!-- Кнопка Контакты -->
+                <button class="btn btn-dark btn-icon-left"><i class="fas fa-address-book"></i> Контакты </button>
+                <!-- Кнопка Пользователь с выпадающим списком" -->
+                <div class="dropdown mt-auto d-flex align-items-stretch flex-column">
+                    <div class="divider-white"></div>
+                    <p></p>
+                    <button class="btn btn-secondary btn-icon-left dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user"></i> Пользователь
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Профиль </a></li>
+                        <li><a class="dropdown-item" href="#"> Выход </a></li>
+                    </ul>
+                </div>
+                <p></p>
+            </div>
+            <!-- Содержимое второго фрейма -->
+            <div class="col-10 frame2 d-flex align-items-center flex-column">
+                <div class="row align-content-center">
+                    <h2><br> Каталог </h2>
+                </div>
+                <div class="container justify-content-center">
+                    <!-- Карточки товаров (Grid cards)-->
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="/static/resources/thumbnail1.jpg" class="card-img-top" alt="Thumbnail"
+                                    height="200">
+                                <div class="card-body">
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                        <button type="button" class="btn btn-outline-dark"> View </button>
+                                        <button type="button" class="btn btn-outline-dark"> Edit </button>
+                                    </div>
+                                    <button type="button" class="btn btn-link position-absolute end-0"> 9 mins </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/static/resources/thumbnail2.jpg" class="card-img-top" alt="Thumbnail"
+                                    height="200">
+                                <div class="card-body">
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                        <button type="button" class="btn btn-outline-dark"> View </button>
+                                        <button type="button" class="btn btn-outline-dark"> Edit </button>
+                                    </div>
+                                    <button type="button" class="btn btn-link position-absolute end-0"> 9 mins </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/static/resources/thumbnail1.jpg" class="card-img-top" alt="Thumbnail"
+                                    height="200">
+                                <div class="card-body">
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content.</p>
+                                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                        <button type="button" class="btn btn-outline-dark"> View </button>
+                                        <button type="button" class="btn btn-outline-dark"> Edit </button>
+                                    </div>
+                                    <button type="button" class="btn btn-link position-absolute end-0"> 9 mins </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/static/resources/thumbnail2.jpg" class="card-img-top" alt="Thumbnail"
+                                    height="200">
+                                <div class="card-body">
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                        <button type="button" class="btn btn-outline-dark"> View </button>
+                                        <button type="button" class="btn btn-outline-dark"> Edit </button>
+                                    </div>
+                                    <button type="button" class="btn btn-link position-absolute end-0"> 9 mins </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
