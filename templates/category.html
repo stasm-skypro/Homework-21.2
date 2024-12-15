@@ -18,22 +18,25 @@
                 <div class="d-flex align-items-center">
                     <img src="/static/resources/sm2.jpg" alt="logo" class="img-fluid"
                         style="max-width: 32px; margin-right: 10px;">
-                    <h2 style="align-self: center; font-family: Arial, Helvetica, sans-serif;"> Меню </h2>
+                    <h2 style="align-self: center;"> Меню </h2>
                 </div>
                 <!-- Верхний разделитель -->
                 <div class="divider-white"></div>
                 <br>
                 <!-- Кнопка Главная -->
-                <button class="btn btn-primary btn-icon-left"><i class="fas fa-home"></i> Главная </button>
+                <button class="btn btn-primary btn-icon-left" onclick="window.location.href='home.html'"><i
+                        class="fas fa-home"></i> Главная </button>
                 <p></p>
-                <!-- Кнопка Категории -->
-                <button class="btn btn-dark btn-icon-left"><i class="fas fa-list"></i> Категории </button>
+                <!-- Кнопка Категории (неактивная) -->
+                <button class="btn btn-secondary btn-icon-left"><i class="fas fa-list"></i> Категории </button>
                 <p></p>
-                <!-- Кнопка Заказы -->
-                <button class="btn btn-dark btn-icon-left"><i class="fas fa-shopping-bag"></i> Заказы </button>
+                <!-- Кнопка Каталог -->
+                <button class="btn btn-dark btn-icon-left" onclick="window.location.href='catalog.html'"><i
+                        class="fas fa-shopping-bag"></i> Каталог </button>
                 <p></p>
                 <!-- Кнопка Контакты -->
-                <button class="btn btn-dark btn-icon-left"><i class="fas fa-address-book"></i> Контакты </button>
+                <button class="btn btn-dark btn-icon-left" onclick="window.location.href='contacts.html'"><i
+                        class="fas fa-address-book"></i> Контакты </button>
                 <!-- Кнопка Пользователь с выпадающим списком" -->
                 <div class="dropdown mt-auto d-flex align-items-stretch flex-column">
                     <div class="divider-white"></div>
@@ -51,10 +54,7 @@
             <!-- Содержимое второго фрейма -->
             <div class="col-10 frame2 d-flex align-items-center flex-column">
                 <div class="row align-content-center">
-                    <h2><br> Главная </h2>
-                </div>
-                <div class="row align-content-center">
-                    <p> Вы находитесь на сайте, предназначенном для продажи товаров.</p>
+                    <h2><br> Категория 1 </h2>
                 </div>
                 <br>
                 <!-- Карточки товаров (Grid cards)-->
