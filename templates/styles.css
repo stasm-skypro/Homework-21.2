@@ -1,0 +1,28 @@
+html, body {
+            height: 100%;
+}
+
+.frame1 {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.divider-white {
+    border-top: 1px solid white;
+    margin-top: 10px;
+}
+
+.btn-icon-left {
+    display: flex; align-items: center; justify-content: flex-start;
+ }
+
+.btn-icon-left i {
+    margin-right: 5px;
+}
+
+#div1 {
+    width:100px;
+    height:30px;
+    background-color: #dcdcdc;
+}
