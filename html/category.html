@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Прототип интернет-магазина</title>
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    <!-- <script src="/static/js/bootstrap.bundle.min.js"></script> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -15,11 +18,15 @@
         <div class="row h-100">
             <!-- Содержимое первого фрейма -->
             <div class="col-2 frame1 d-flex align-items-stretch flex-column">
-                <div class="d-flex align-items-center">
-                    <img src="/static/resources/sm2.jpg" alt="logo" class="img-fluid"
-                        style="max-width: 32px; margin-right: 10px;">
-                    <h2 style="align-self: center;"> Меню </h2>
-                </div>
+                <nav class="navbar bg-black border-body" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="../static/resources/32px-Bootstrap_logo.svg.png" alt="Logo" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                            Меню
+                        </a>
+                    </div>
+                </nav>
                 <!-- Верхний разделитель -->
                 <div class="divider-white"></div>
                 <br>
@@ -41,8 +48,8 @@
                 <div class="dropdown mt-auto d-flex align-items-stretch flex-column">
                     <div class="divider-white"></div>
                     <p></p>
-                    <button class="btn btn-secondary btn-icon-left dropdown-toggle" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user"></i> Пользователь
+                    <button class="btn btn-dark btn-icon-left dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"><i class="fas fa-user"></i> Пользователь
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#"> Профиль </a></li>
